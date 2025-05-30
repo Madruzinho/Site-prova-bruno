@@ -1,0 +1,89 @@
+body {
+    background-color: #fbfcfc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.cabecalho {
+    color:rgb(31, 31, 160) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    height: 180px;
+    background-color: #f2f2f2; 
+    
+}
+
+.cabecalho img {
+    height: 200px;
+    width: 200px;
+
+}
+.cabecalho p {
+    margin-left: 50px;
+}
+
+aside {
+  height: 100vh;
+  width: 200px;
+  background-color: #ffffff; 
+  padding: 20px;
+  float: left;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.textos {
+    margin-left: 250px;
+}
+
+.textos h1 {
+    font-size: 20px;
+}
+
+.logo-universidade {
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    position: absolute;
+      background-color: #f2f2f2; 
+      color:rgb(31, 31, 160) ;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+
+    .footer-links a {
+      color: rgb(31, 31, 160) ;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .creditos {
+      font-size: 0.85em;
+      margin-top: 10px;
+      color: rgb(31, 31, 160) ;
+    }
